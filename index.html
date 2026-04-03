@@ -622,10 +622,10 @@ const shieldImages = {
   const zonaA = [
     { nombre: "Vélez",              pj: 11, g: 6, e: 4, p: 1,  gf: 12, gc:  6, pts: 22 },
     { nombre: "Estudiantes (LP)",   pj: 11, g: 6, e: 3, p: 2,  gf: 14, gc:  5, pts: 21 },
+    { nombre: "Boca Juniors",         pj: 12, g: 5, e: 5, p: 2,  gf: 14, gc:  7, pts: 20 },
     { nombre: "Defensa y Justicia", pj: 11, g: 4, e: 7, p: 0,  gf: 15, gc:  8, pts: 19 },
     { nombre: "Lanús",              pj: 12, g: 5, e: 4, p: 3,  gf: 17, gc: 14, pts: 19 },
-    { nombre: "Talleres",           pj: 11, g: 5, e: 3, p: 3,  gf: 12, gc: 10, pts: 18 },
-    { nombre: "Boca Juniors",       pj: 11, g: 4, e: 5, p: 2,  gf: 13, gc:  7, pts: 17 },
+    { nombre: "Talleres",           pj: 12, g: 5, e: 3, p: 4,  gf: 12, gc: 11, pts: 18 },
     { nombre: "Unión SF",           pj: 11, g: 4, e: 4, p: 3,  gf: 16, gc: 12, pts: 16 },
     { nombre: "Platense",           pj: 12, g: 3, e: 6, p: 3,  gf:  6, gc:  7, pts: 15 },
     { nombre: "Independiente",      pj: 11, g: 3, e: 5, p: 3,  gf: 17, gc: 15, pts: 14 },
@@ -639,13 +639,13 @@ const shieldImages = {
 
   // ZONA B – Fuente: ESPN Argentina · 23 de marzo de 2026
   const zonaB = [
-    { nombre: "Ind. Rivadavia",   pj: 11, g: 7, e: 2, p: 2, gf: 18, gc: 12, pts: 23 },
+    { nombre: "Ind. Rivadavia",   pj: 12, g: 8, e: 2, p: 2, gf: 20, gc: 12, pts: 26 },
     { nombre: "River Plate",      pj: 11, g: 6, e: 2, p: 3, gf: 14, gc:  9, pts: 20 },
     { nombre: "Argentinos Jrs",   pj: 11, g: 5, e: 5, p: 1, gf: 10, gc:  5, pts: 20 },
     { nombre: "Belgrano",         pj: 11, g: 5, e: 4, p: 2, gf: 12, gc:  9, pts: 19 },
     { nombre: "Racing Club",      pj: 11, g: 5, e: 3, p: 3, gf: 15, gc: 10, pts: 18 },
     { nombre: "Rosario Central",  pj: 11, g: 5, e: 3, p: 3, gf: 12, gc:  9, pts: 18 },
-    { nombre: "Tigre",            pj: 11, g: 4, e: 5, p: 2, gf: 16, gc: 10, pts: 17 },
+    { nombre: "Tigre",            pj: 12, g: 4, e: 5, p: 3, gf: 16, gc: 12, pts: 17 },
     { nombre: "Barracas Central", pj: 12, g: 4, e: 4, p: 4, gf: 11, gc: 11, pts: 16 },
     { nombre: "Sarmiento",        pj: 12, g: 5, e: 1, p: 6, gf: 10, gc: 12, pts: 16 },
     { nombre: "Gimnasia (LP)",    pj: 11, g: 4, e: 2, p: 5, gf: 13, gc: 15, pts: 14 },
@@ -1184,8 +1184,8 @@ const shieldImages = {
       partidos:[
         {local:"Lanús",gL:0,gV:0,visita:"Platense",zona:"A",dia:"Mié 01/04"},
         {local:"Barracas Central",gL:1,gV:2,visita:"Sarmiento",zona:"B",dia:"Jue 02/04"},
-        {local:"Talleres",visita:"Boca Juniors",zona:"A",dia:"Jue 02/04",hora:"20:30"},
-        {local:"Tigre",visita:"Ind. Rivadavia",zona:"B",dia:"Jue 02/04",hora:"17:30"},
+        {local:"Talleres",gL:0,gV:1,visita:"Boca Juniors",zona:"A",dia:"Jue 02/04"},
+        {local:"Tigre",gL:0,gV:2,visita:"Ind. Rivadavia",zona:"B",dia:"Jue 02/04"},
         {local:"Gim. de Mendoza",visita:"Vélez",zona:"A",dia:"Vie 03/04",hora:"15:00"},
         {local:"Aldosivi",visita:"Est. Río Cuarto",zona:"B",dia:"Sáb 04/04",hora:"13:30"},
         {local:"Unión SF",visita:"Deportivo Riestra",zona:"A",dia:"Vie 03/04",hora:"17:15"},
@@ -1409,7 +1409,7 @@ const shieldImages = {
 
   // ── TABLA DE PROMEDIOS ──
   const promediosData = [
-    {nombre:"Boca Juniors",p24:67,p25:62,p26:17,_pts:146,_pj:84,_prom:1.738},
+    {nombre:"Boca Juniors",p24:67,p25:62,p26:20,_pts:149,_pj:85,_prom:1.753},
     {nombre:"River Plate",p24:70,p25:53,p26:20,_pts:143,_pj:84,_prom:1.702},
     {nombre:"Racing Club",p24:70,p25:53,p26:18,_pts:141,_pj:84,_prom:1.679},
     {nombre:"Vélez",p24:76,p25:40,p26:22,_pts:138,_pj:84,_prom:1.643},
@@ -1417,18 +1417,18 @@ const shieldImages = {
     {nombre:"Rosario Central",p24:47,p25:66,p26:18,_pts:131,_pj:84,_prom:1.560},
     {nombre:"Lanús",p24:59,p25:50,p26:19,_pts:128,_pj:85,_prom:1.506},
     {nombre:"Estudiantes (LP)",p24:63,p25:42,p26:21,_pts:126,_pj:84,_prom:1.500},
-    {nombre:"Talleres",p24:72,p25:34,p26:18,_pts:124,_pj:84,_prom:1.476},
+    {nombre:"Talleres",p24:72,p25:34,p26:18,_pts:124,_pj:85,_prom:1.459},
     {nombre:"Independiente",p24:63,p25:47,p26:14,_pts:124,_pj:84,_prom:1.476},
     {nombre:"Huracán",p24:62,p25:47,p26:14,_pts:123,_pj:84,_prom:1.464},
     {nombre:"Defensa y Justicia",p24:58,p25:38,p26:19,_pts:115,_pj:84,_prom:1.369},
     {nombre:"Unión SF",p24:60,p25:39,p26:16,_pts:115,_pj:84,_prom:1.369},
     {nombre:"Barracas Central",p24:49,p25:49,p26:16,_pts:114,_pj:85,_prom:1.341},
-    {nombre:"Ind. Rivadavia",p24:46,p25:43,p26:23,_pts:112,_pj:84,_prom:1.333},
+    {nombre:"Ind. Rivadavia",p24:46,p25:43,p26:26,_pts:115,_pj:85,_prom:1.353},
     {nombre:"San Lorenzo",p24:45,p25:51,p26:14,_pts:110,_pj:84,_prom:1.310},
     {nombre:"Deportivo Riestra",p24:48,p25:52,p26:7,_pts:107,_pj:84,_prom:1.274},
     {nombre:"Platense",p24:57,p25:35,p26:15,_pts:107,_pj:85,_prom:1.259},
     {nombre:"Belgrano",p24:49,p25:37,p26:19,_pts:105,_pj:84,_prom:1.250},
-    {nombre:"Tigre",p24:39,p25:49,p26:17,_pts:105,_pj:84,_prom:1.250},
+    {nombre:"Tigre",p24:39,p25:49,p26:17,_pts:105,_pj:85,_prom:1.235},
     {nombre:"Gimnasia (LP)",p24:48,p25:38,p26:14,_pts:100,_pj:84,_prom:1.190},
     {nombre:"Instituto",p24:53,p25:34,p26:11,_pts:98,_pj:84,_prom:1.167},
     {nombre:"Central Córdoba",p24:42,p25:42,p26:12,_pts:96,_pj:84,_prom:1.143},
@@ -1531,7 +1531,7 @@ const shieldImages = {
   }
 
   // ── LIVE FOOTBALL API SYNC ──
-  const RAPIDAPI_KEY  = '073dc88dffmshd28b57b07f6d3abp1e574fjsn8a8949438fc1';
+  const RAPIDAPI_KEY  = '552f25fd7bmsha5b6b431e462bd7p1eed94jsna744a9aa0fd2';
   const RAPIDAPI_HOST = 'free-api-live-football-data.p.rapidapi.com';
   const LIGA_ID       = '905256'; // Liga Profesional Argentina (leagueId en livescores)
 
@@ -1556,7 +1556,7 @@ const shieldImages = {
 
       // Filtrar solo partidos de la Liga Profesional Argentina (leagueId 905256)
       const allLive = data?.response?.live || [];
-      const matches = allLive.filter(m => String(m.leagueId) === LIGA_ID);
+      const matches = allLive.filter(m => String(m.leagueId) === String(LIGA_ID));
 
       if (matches.length === 0) {
         status.textContent = 'Sin partidos en vivo';
