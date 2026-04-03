@@ -1,5 +1,5 @@
 exports.handler = async function(event, context) {
-  const RAPIDAPI_KEY  = '073dc88dffmshd28b57b07f6d3abp1e574fjsn8a8949438fc1';
+  const RAPIDAPI_KEY  = '552f25fd7bmsha5b6b431e462bd7p1eed94jsna744a9aa0fd2';
   const RAPIDAPI_HOST = 'free-api-live-football-data.p.rapidapi.com';
 
   try {
