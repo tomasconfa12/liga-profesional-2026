@@ -398,7 +398,7 @@
   </div>
   <p class="subtitle">Liga Profesional de Fútbol · AFA</p>
   <h1>Torneo<br>Apertura 2026</h1>
-  <div class="badge">Fase Regular · Fecha 14 en curso</div>
+  <div class="badge">Fase Regular · Fecha 15 en curso</div>
 </header>
 
 <nav id="main-nav" style="background:rgba(10,14,26,0.97);border-bottom:1px solid rgba(116,172,223,0.15);position:sticky;top:0;z-index:100;">
@@ -423,8 +423,8 @@
     </div>
     <div class="info-card">
       <div class="info-label">Última fecha jugada</div>
-      <div class="info-value">F.13</div>
-      <div class="info-sub">F.14 en disputa</div>
+      <div class="info-value">F.14</div>
+      <div class="info-sub">F.15 en disputa</div>
     </div>
     <div class="info-card">
       <div class="info-label">Clasifican por zona</div>
@@ -533,6 +533,9 @@
         </thead>
         <tbody id="tablaAnual"></tbody>
       </table>
+      <div style="padding:10px 20px;font-size:0.72rem;color:var(--texto-suave);border-top:1px solid var(--borde);">
+        * Si el puesto 30 en la tabla anual coincide con el puesto 30 de la tabla de promedios, desciende también el puesto 29 de la tabla anual.
+      </div>
     </div>
   </div>
 
@@ -620,40 +623,40 @@ const shieldImages = {
 
   // ZONA A – Fuente: ESPN Argentina · 23 de marzo de 2026
   const zonaA = [
-    { nombre: "Vélez",              pj: 12, g: 6, e: 4, p: 2,  gf: 14, gc:  9, pts: 22 },
-    { nombre: "Estudiantes (LP)",   pj: 12, g: 6, e: 3, p: 3,  gf: 14, gc:  6, pts: 21 },
-    { nombre: "Boca Juniors",         pj: 12, g: 5, e: 5, p: 2,  gf: 14, gc:  7, pts: 20 },
-    { nombre: "Unión SF",            pj: 12, g: 5, e: 4, p: 3,  gf: 18, gc: 12, pts: 19 },
-    { nombre: "Defensa y Justicia", pj: 12, g: 4, e: 7, p: 1,  gf: 15, gc: 10, pts: 19 },
-    { nombre: "Lanús",              pj: 12, g: 5, e: 4, p: 3,  gf: 17, gc: 14, pts: 19 },
-    { nombre: "Talleres",           pj: 12, g: 5, e: 3, p: 4,  gf: 12, gc: 11, pts: 18 },
-    { nombre: "Independiente",      pj: 12, g: 4, e: 5, p: 3,  gf: 18, gc: 15, pts: 17 },
-    { nombre: "San Lorenzo",        pj: 12, g: 4, e: 5, p: 3,  gf: 12, gc: 12, pts: 17 },
-    { nombre: "Platense",           pj: 12, g: 3, e: 6, p: 3,  gf:  6, gc:  7, pts: 15 },
-    { nombre: "Instituto",          pj: 12, g: 3, e: 5, p: 4,  gf: 13, gc: 15, pts: 14 },
-    { nombre: "Gim. de Mendoza",    pj: 12, g: 2, e: 6, p: 3,  gf:  9, gc: 15, pts: 12 },
-    { nombre: "Central Córdoba",    pj: 12, g: 3, e: 3, p: 6,  gf:  6, gc: 15, pts: 12 },
-    { nombre: "Newells",            pj: 12, g: 2, e: 3, p: 7,  gf: 10, gc: 23, pts:  9 },
-    { nombre: "Deportivo Riestra",  pj: 12, g: 0, e: 7, p: 5,  gf:  3, gc:  9, pts:  7 },
+    { nombre: "Vélez",              pj: 13, g: 7, e: 4, p: 2,  gf: 15, gc:  9, pts: 25 },
+    { nombre: "Estudiantes (LP)",   pj: 13, g: 7, e: 3, p: 3,  gf: 16, gc:  7, pts: 24 },
+    { nombre: "Lanús",              pj: 13, g: 6, e: 4, p: 3,  gf: 18, gc: 14, pts: 22 },
+    { nombre: "Boca Juniors",         pj: 13, g: 5, e: 6, p: 2,  gf: 15, gc:  8, pts: 21 },
+    { nombre: "Talleres",           pj: 13, g: 6, e: 3, p: 4,  gf: 14, gc: 12, pts: 21 },
+    { nombre: "Unión SF",            pj: 13, g: 5, e: 4, p: 4,  gf: 19, gc: 14, pts: 19 },
+    { nombre: "Defensa y Justicia", pj: 13, g: 4, e: 7, p: 2,  gf: 16, gc: 12, pts: 19 },
+    { nombre: "Independiente",      pj: 13, g: 4, e: 6, p: 3,  gf: 19, gc: 16, pts: 18 },
+    { nombre: "San Lorenzo",        pj: 13, g: 4, e: 6, p: 3,  gf: 12, gc: 12, pts: 18 },
+    { nombre: "Instituto",          pj: 13, g: 4, e: 5, p: 4,  gf: 14, gc: 15, pts: 17 },
+    { nombre: "Platense",           pj: 13, g: 3, e: 7, p: 3,  gf:  7, gc:  8, pts: 16 },
+    { nombre: "Gim. de Mendoza",    pj: 13, g: 2, e: 7, p: 3,  gf: 10, gc: 16, pts: 13 },
+    { nombre: "Central Córdoba",    pj: 13, g: 3, e: 3, p: 7,  gf:  6, gc: 16, pts: 12 },
+    { nombre: "Newells",            pj: 13, g: 2, e: 4, p: 7,  gf: 10, gc: 23, pts: 10 },
+    { nombre: "Deportivo Riestra",  pj: 13, g: 0, e: 7, p: 6,  gf:  3, gc: 10, pts:  7 },
   ];
 
   // ZONA B – Fuente: ESPN Argentina · 23 de marzo de 2026
   const zonaB = [
-    { nombre: "Ind. Rivadavia",   pj: 12, g: 8, e: 2, p: 2, gf: 20, gc: 12, pts: 26 },
-    { nombre: "River Plate",         pj: 12, g: 6, e: 5, p: 1,  gf: 17, gc:  9, pts: 23 },
-    { nombre: "Argentinos Jrs",   pj: 12, g: 6, e: 5, p: 1, gf: 13, gc:  7, pts: 23 },
-    { nombre: "Rosario Central",     pj: 12, g: 6, e: 3, p: 3,  gf: 14, gc: 10, pts: 21 },
-    { nombre: "Belgrano",         pj: 12, g: 5, e: 4, p: 3, gf: 12, gc: 12, pts: 19 },
-    { nombre: "Racing Club",         pj: 12, g: 5, e: 3, p: 4,  gf: 15, gc: 11, pts: 18 },
-    { nombre: "Tigre",            pj: 12, g: 4, e: 5, p: 3, gf: 16, gc: 12, pts: 17 },
-    { nombre: "Huracán",          pj: 12, g: 4, e: 5, p: 3, gf: 12, gc:  9, pts: 17 },
-    { nombre: "Barracas Central", pj: 12, g: 4, e: 4, p: 4, gf: 11, gc: 11, pts: 16 },
-    { nombre: "Sarmiento",        pj: 12, g: 5, e: 1, p: 6, gf: 10, gc: 12, pts: 16 },
-    { nombre: "Gimnasia (LP)",    pj: 12, g: 4, e: 2, p: 6, gf: 13, gc: 18, pts: 14 },
-    { nombre: "Banfield",         pj: 12, g: 3, e: 4, p: 5, gf: 14, gc: 16, pts: 13 },
-    { nombre: "Atlético Tucumán", pj: 12, g: 2, e: 3, p: 7, gf: 13, gc: 18, pts:  9 },
-    { nombre: "Aldosivi",         pj: 12, g: 0, e: 6, p: 6, gf:  3, gc: 13, pts:  6 },
-    { nombre: "Est. Río Cuarto",  pj: 12, g: 1, e: 2, p: 9, gf:  3, gc: 17, pts:  5 },
+    { nombre: "Ind. Rivadavia",   pj: 13, g: 9, e: 2, p: 2, gf: 23, gc: 13, pts: 29 },
+    { nombre: "River Plate",         pj: 13, g: 7, e: 5, p: 1,  gf: 19, gc:  9, pts: 26 },
+    { nombre: "Argentinos Jrs",   pj: 13, g: 6, e: 5, p: 2, gf: 14, gc: 10, pts: 23 },
+    { nombre: "Belgrano",         pj: 13, g: 6, e: 4, p: 3, gf: 13, gc: 12, pts: 22 },
+    { nombre: "Rosario Central",     pj: 13, g: 6, e: 3, p: 4,  gf: 15, gc: 13, pts: 21 },
+    { nombre: "Huracán",          pj: 13, g: 5, e: 5, p: 3, gf: 15, gc: 10, pts: 20 },
+    { nombre: "Barracas Central", pj: 13, g: 5, e: 4, p: 4, gf: 13, gc: 12, pts: 19 },
+    { nombre: "Tigre",            pj: 13, g: 4, e: 6, p: 3, gf: 16, gc: 12, pts: 18 },
+    { nombre: "Racing Club",         pj: 13, g: 5, e: 3, p: 5,  gf: 15, gc: 13, pts: 18 },
+    { nombre: "Gimnasia (LP)",    pj: 13, g: 5, e: 2, p: 6, gf: 15, gc: 19, pts: 17 },
+    { nombre: "Sarmiento",        pj: 13, g: 5, e: 1, p: 7, gf: 11, gc: 14, pts: 16 },
+    { nombre: "Banfield",         pj: 13, g: 3, e: 4, p: 6, gf: 14, gc: 17, pts: 13 },
+    { nombre: "Atlético Tucumán", pj: 13, g: 2, e: 4, p: 7, gf: 13, gc: 18, pts: 10 },
+    { nombre: "Aldosivi",         pj: 13, g: 0, e: 6, p: 7, gf:  3, gc: 14, pts:  6 },
+    { nombre: "Est. Río Cuarto",  pj: 13, g: 1, e: 2, p: 10, gf:  4, gc: 19, pts:  5 },
   ];
 
   function renderTabla(equipos, tbodyId) {
@@ -717,7 +720,10 @@ const shieldImages = {
       // Copa Libertadores: top 6 (aprox según clasificación 2026)
       const esLibertadores = pos <= 3;
       const esSudamericana = pos >= 4 && pos <= 9;
-      const esDescenso = pos === 30;
+      const _anualLast = equipos[29]?.nombre;
+      const _promLast  = promediosData[29]?.nombre;
+      const _doubleDesc = _anualLast === _promLast;
+      const esDescenso = pos === 30 || (_doubleDesc && pos === 29);
       const dif = eq.gf - eq.gc;
       const difStr = dif > 0 ? `+${dif}` : `${dif}`;
       const difColor = dif > 0 ? '#2ECC71' : dif < 0 ? '#E74C3C' : '#8A96B0';
@@ -751,7 +757,7 @@ const shieldImages = {
         <td class="stat">${eq.gf}</td>
         <td class="stat">${eq.gc}</td>
         <td class="stat" style="color:${difColor};font-weight:600">${difStr}</td>
-        <td class="pts" style="font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:1px;">${eq.pts}</td>
+        <td class="pts" style="font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:1px;${esDescenso?'color:#E74C3C;':''}">${eq.pts}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -773,45 +779,8 @@ const shieldImages = {
     document.head.appendChild(s);
   })();
 
-  // ── TABLA ANUAL re-render with campeon badge ──
-  (function(){
-    const tbody = document.getElementById('tablaAnual');
-    if (!tbody) return;
-    tbody.innerHTML = '';
-    const equipos = [...zonaA, ...zonaB].sort((a,b)=>{
-      if(b.pts!==a.pts) return b.pts-a.pts;
-      const da=a.gf-a.gc, db=b.gf-b.gc;
-      if(db!==da) return db-da;
-      return b.gf-a.gf;
-    });
-    equipos.forEach((eq,idx)=>{
-      const pos=idx+1;
-      const e=getEscudo(eq.nombre);
-      const esLib=pos<=3, esSud=pos>=4&&pos<=9, esDesc=pos===30;
-      const dif=eq.gf-eq.gc;
-      const difStr=dif>0?`+${dif}`:`${dif}`;
-      const difColor=dif>0?'#2ECC71':dif<0?'#E74C3C':'#8A96B0';
-      let bc='pos-badge-neutral', rb='';
-      if(pos===1){bc='pos-badge-campeon';rb='border-left:3px solid var(--oro)'}
-      else if(esLib){bc='pos-badge-libertadores';rb='border-left:3px solid #27AE60'}
-      else if(esSud){bc='pos-badge-suda';rb='border-left:3px solid #2980B9'}
-      else if(esDesc){bc='pos-badge-red';rb='border-left:3px solid #E74C3C'}
-      const tr=document.createElement('tr');
-      if(rb) tr.style.cssText=rb;
-      tr.innerHTML=`
-        <td class="pos-num"><span class="pos-badge ${bc}">${pos}</span></td>
-        <td class="left"><div class="equipo-cell">
-          ${shieldImages[eq.nombre]?`<img src="${shieldImages[eq.nombre]}" style="width:28px;height:28px;object-fit:contain;flex-shrink:0;${shieldStyleOverrides[eq.nombre]||'mix-blend-mode:lighten;'}" alt="${eq.nombre}">`:`<div class="equipo-escudo" style="background:${e.bg};color:${e.color}">${e.sig}</div>`}
-          <span class="equipo-nombre">${eq.nombre}</span></div></td>
-        <td class="stat">${eq.pj}</td><td class="stat">${eq.g}</td><td class="stat">${eq.e}</td><td class="stat">${eq.p}</td>
-        <td class="stat">${eq.gf}</td><td class="stat">${eq.gc}</td>
-        <td class="stat" style="color:${difColor};font-weight:600">${difStr}</td>
-        <td class="pts" style="font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:1px;">${eq.pts}</td>`;
-      tbody.appendChild(tr);
-    });
-  })();
 
-  // ── HTML SECTIONS (inject into main) ──
+ // ── HTML SECTIONS (inject into main) ──
   (function(){
     const main = document.querySelector('main');
     if (!main) return;
@@ -1200,21 +1169,21 @@ const shieldImages = {
       ]},
     { num:14, label:"Fecha 14", desc:"10 al 13 de abril",
       partidos:[
-        {local:"Belgrano",visita:"Aldosivi",zona:"B",dia:"Vie 10/04",hora:"21:00"},
-        {local:"Deportivo Riestra",visita:"Instituto",zona:"A",dia:"Sáb 11/04",hora:"15:00",clasico:false},
-        {local:"Ind. Rivadavia",visita:"Argentinos Jrs",zona:"B",dia:"Sáb 11/04",hora:"15:30"},
-        {local:"Estudiantes (LP)",visita:"Unión SF",zona:"A",dia:"Sáb 11/04",hora:"17:15"},
-        {local:"Boca Juniors",visita:"Independiente",zona:"A",dia:"Sáb 11/04",hora:"19:30"},
-        {local:"Est. Río Cuarto",visita:"Barracas Central",zona:"B",dia:"Sáb 11/04",hora:"21:45",clasico:false},
-        {local:"Newells",visita:"San Lorenzo",zona:"A",dia:"Dom 12/04",hora:"15:00"},
-        {local:"Platense",visita:"Gim. de Mendoza",zona:"A",dia:"Dom 12/04",hora:"15:00"},
-        {local:"Huracán",visita:"Rosario Central",zona:"B",dia:"Dom 12/04",hora:"17:30"},
-        {local:"Atlético Tucumán",visita:"Tigre",zona:"B",dia:"Dom 12/04",hora:"17:30"},
-        {local:"Racing Club",visita:"River Plate",zona:"B",dia:"Dom 12/04",hora:"20:00"},
-        {local:"Sarmiento",visita:"Gimnasia (LP)",zona:"B",dia:"Lun 13/04",hora:"16:30"},
-        {local:"Defensa y Justicia",visita:"Talleres",zona:"A",dia:"Lun 13/04",hora:"16:30"},
-        {local:"Lanús",visita:"Banfield",zona:"INT",dia:"Lun 13/04",hora:"19:00"},
-        {local:"Vélez",visita:"Central Córdoba",zona:"A",dia:"Lun 13/04",hora:"21:30"},
+        {local:"Belgrano",gL:1,gV:0,visita:"Aldosivi",zona:"B",dia:"Vie 10/04"},
+        {local:"Deportivo Riestra",gL:0,gV:1,visita:"Instituto",zona:"A",dia:"Sáb 11/04",clasico:false},
+        {local:"Ind. Rivadavia",gL:3,gV:1,visita:"Argentinos Jrs",zona:"B",dia:"Sáb 11/04"},
+        {local:"Estudiantes (LP)",gL:2,gV:1,visita:"Unión SF",zona:"A",dia:"Sáb 11/04"},
+        {local:"Boca Juniors",gL:1,gV:1,visita:"Independiente",zona:"A",dia:"Sáb 11/04"},
+        {local:"Est. Río Cuarto",gL:1,gV:2,visita:"Barracas Central",zona:"B",dia:"Sáb 11/04",clasico:false},
+        {local:"Newells",gL:0,gV:0,visita:"San Lorenzo",zona:"A",dia:"Dom 12/04"},
+        {local:"Platense",gL:1,gV:1,visita:"Gim. de Mendoza",zona:"A",dia:"Dom 12/04"},
+        {local:"Huracán",gL:3,gV:1,visita:"Rosario Central",zona:"B",dia:"Dom 12/04"},
+        {local:"Atlético Tucumán",gL:0,gV:0,visita:"Tigre",zona:"B",dia:"Dom 12/04"},
+        {local:"Racing Club",gL:0,gV:2,visita:"River Plate",zona:"B",dia:"Dom 12/04"},
+        {local:"Sarmiento",gL:1,gV:2,visita:"Gimnasia (LP)",zona:"B",dia:"Lun 13/04"},
+        {local:"Defensa y Justicia",gL:1,gV:2,visita:"Talleres",zona:"A",dia:"Lun 13/04"},
+        {local:"Lanús",gL:1,gV:0,visita:"Banfield",zona:"INT",dia:"Lun 13/04"},
+        {local:"Vélez",gL:1,gV:0,visita:"Central Córdoba",zona:"A",dia:"Lun 13/04"},
       ]},
     { num:15, label:"Fecha 15", desc:"17 al 20 de abril",
       partidos:[
@@ -1255,7 +1224,7 @@ const shieldImages = {
   ];
 
   const todasFechasCombinadas = [...fechasPasadas, ...fechasFuturas];
-  let fechaGlobalIdx = fechasPasadas.length + 1; // start at fecha 14
+  let fechaGlobalIdx = fechasPasadas.length + 2; // start at fecha 15
 
   function cambiarFecha(dir) {
     fechaGlobalIdx = Math.max(0, Math.min(todasFechasCombinadas.length - 1, fechaGlobalIdx + dir));
@@ -1409,36 +1378,36 @@ const shieldImages = {
 
   // ── TABLA DE PROMEDIOS ──
   const promediosData = [
-    {nombre:"Boca Juniors",p24:67,p25:62,p26:20,_pts:149,_pj:85,_prom:1.753},
-    {nombre:"River Plate",p24:70,p25:53,p26:23,_pts:146,_pj:85,_prom:1.718},
-    {nombre:"Racing Club",p24:70,p25:53,p26:18,_pts:141,_pj:85,_prom:1.659},
-    {nombre:"Vélez",p24:76,p25:40,p26:22,_pts:138,_pj:85,_prom:1.624},
-    {nombre:"Argentinos Jrs",p24:56,p25:57,p26:23,_pts:136,_pj:85,_prom:1.600},
-    {nombre:"Rosario Central",p24:47,p25:66,p26:21,_pts:134,_pj:85,_prom:1.576},
-    {nombre:"Lanús",p24:59,p25:50,p26:19,_pts:128,_pj:85,_prom:1.506},
-    {nombre:"Independiente",p24:63,p25:47,p26:17,_pts:127,_pj:85,_prom:1.494},
-    {nombre:"Estudiantes (LP)",p24:63,p25:42,p26:21,_pts:126,_pj:85,_prom:1.482},
-    {nombre:"Huracán",p24:62,p25:47,p26:17,_pts:126,_pj:85,_prom:1.482},
-    {nombre:"Talleres",p24:72,p25:34,p26:18,_pts:124,_pj:85,_prom:1.459},
-    {nombre:"Unión SF",p24:60,p25:39,p26:19,_pts:118,_pj:85,_prom:1.388},
-    {nombre:"Ind. Rivadavia",p24:46,p25:43,p26:26,_pts:115,_pj:85,_prom:1.353},
-    {nombre:"Defensa y Justicia",p24:58,p25:38,p26:19,_pts:115,_pj:85,_prom:1.353},
-    {nombre:"Barracas Central",p24:49,p25:49,p26:16,_pts:114,_pj:85,_prom:1.341},
-    {nombre:"San Lorenzo",p24:45,p25:51,p26:17,_pts:113,_pj:85,_prom:1.329},
-    {nombre:"Platense",p24:57,p25:35,p26:15,_pts:107,_pj:85,_prom:1.259},
-    {nombre:"Deportivo Riestra",p24:48,p25:52,p26:7,_pts:107,_pj:85,_prom:1.259},
-    {nombre:"Belgrano",p24:49,p25:37,p26:19,_pts:105,_pj:85,_prom:1.235},
-    {nombre:"Tigre",p24:39,p25:49,p26:17,_pts:105,_pj:85,_prom:1.235},
-    {nombre:"Instituto",p24:53,p25:34,p26:14,_pts:101,_pj:85,_prom:1.188},
-    {nombre:"Gimnasia (LP)",p24:48,p25:38,p26:14,_pts:100,_pj:85,_prom:1.176},
-    {nombre:"Central Córdoba",p24:42,p25:42,p26:12,_pts:96,_pj:85,_prom:1.129},
-    {nombre:"Atlético Tucumán",p24:50,p25:34,p26:9,_pts:93,_pj:85,_prom:1.094},
-    {nombre:"Newells",p24:49,p25:33,p26:9,_pts:91,_pj:85,_prom:1.071},
-    {nombre:"Banfield",p24:41,p25:35,p26:13,_pts:89,_pj:85,_prom:1.047},
-    {nombre:"Sarmiento",p24:35,p25:35,p26:16,_pts:86,_pj:85,_prom:1.012},
-    {nombre:"Gim. de Mendoza",p24:0,p25:0,p26:12,_pts:12,_pj:12,_prom:1.000},
-    {nombre:"Aldosivi",p24:0,p25:33,p26:6,_pts:39,_pj:44,_prom:0.886},
-    {nombre:"Est. Río Cuarto",p24:0,p25:0,p26:5,_pts:5,_pj:12,_prom:0.417}
+    {nombre:"Boca Juniors",p24:67,p25:62,p26:21,_pts:150,_pj:86,_prom:1.744},
+    {nombre:"River Plate",p24:70,p25:53,p26:26,_pts:149,_pj:86,_prom:1.733},
+    {nombre:"Vélez",p24:76,p25:40,p26:25,_pts:141,_pj:86,_prom:1.640},
+    {nombre:"Racing Club",p24:70,p25:53,p26:18,_pts:141,_pj:86,_prom:1.640},
+    {nombre:"Argentinos Jrs",p24:56,p25:57,p26:23,_pts:136,_pj:86,_prom:1.581},
+    {nombre:"Rosario Central",p24:47,p25:66,p26:21,_pts:134,_pj:86,_prom:1.558},
+    {nombre:"Lanús",p24:59,p25:50,p26:22,_pts:131,_pj:86,_prom:1.523},
+    {nombre:"Estudiantes (LP)",p24:63,p25:42,p26:24,_pts:129,_pj:86,_prom:1.500},
+    {nombre:"Huracán",p24:62,p25:47,p26:20,_pts:129,_pj:86,_prom:1.500},
+    {nombre:"Independiente",p24:63,p25:47,p26:18,_pts:128,_pj:86,_prom:1.488},
+    {nombre:"Talleres",p24:72,p25:34,p26:21,_pts:127,_pj:86,_prom:1.477},
+    {nombre:"Ind. Rivadavia",p24:46,p25:43,p26:29,_pts:118,_pj:86,_prom:1.372},
+    {nombre:"Unión SF",p24:60,p25:39,p26:19,_pts:118,_pj:86,_prom:1.372},
+    {nombre:"Barracas Central",p24:49,p25:49,p26:19,_pts:117,_pj:86,_prom:1.360},
+    {nombre:"Defensa y Justicia",p24:58,p25:38,p26:19,_pts:115,_pj:86,_prom:1.337},
+    {nombre:"San Lorenzo",p24:45,p25:51,p26:18,_pts:114,_pj:86,_prom:1.326},
+    {nombre:"Belgrano",p24:49,p25:37,p26:22,_pts:108,_pj:86,_prom:1.256},
+    {nombre:"Platense",p24:57,p25:35,p26:16,_pts:108,_pj:86,_prom:1.256},
+    {nombre:"Deportivo Riestra",p24:48,p25:52,p26:7,_pts:107,_pj:86,_prom:1.244},
+    {nombre:"Tigre",p24:39,p25:49,p26:18,_pts:106,_pj:86,_prom:1.233},
+    {nombre:"Instituto",p24:53,p25:34,p26:17,_pts:104,_pj:86,_prom:1.209},
+    {nombre:"Gimnasia (LP)",p24:48,p25:38,p26:17,_pts:103,_pj:86,_prom:1.198},
+    {nombre:"Central Córdoba",p24:42,p25:42,p26:12,_pts:96,_pj:86,_prom:1.116},
+    {nombre:"Atlético Tucumán",p24:50,p25:34,p26:10,_pts:94,_pj:86,_prom:1.093},
+    {nombre:"Newells",p24:49,p25:33,p26:10,_pts:92,_pj:86,_prom:1.070},
+    {nombre:"Banfield",p24:41,p25:35,p26:13,_pts:89,_pj:86,_prom:1.035},
+    {nombre:"Sarmiento",p24:35,p25:35,p26:16,_pts:86,_pj:86,_prom:1.000},
+    {nombre:"Gim. de Mendoza",p24:0,p25:0,p26:13,_pts:13,_pj:13,_prom:1.000},
+    {nombre:"Aldosivi",p24:0,p25:33,p26:6,_pts:39,_pj:45,_prom:0.867},
+    {nombre:"Est. Río Cuarto",p24:0,p25:0,p26:5,_pts:5,_pj:13,_prom:0.385}
   ];
 
   function renderPromedios() {
@@ -1448,7 +1417,17 @@ const shieldImages = {
     promediosData.forEach((eq,idx)=>{
       const pos=idx+1;
       const e=getEscudo(eq.nombre);
-      const isDesc=pos===30;
+      // Descenso: pos 30 siempre. Si el último de promedios (pos30) coincide con el último de tabla anual, marcar también pos 29
+      const last30 = promediosData[29]?.nombre;
+      const tablaAnualSorted = [...zonaA,...zonaB].sort((a,b)=>{
+        if(b.pts!==a.pts) return b.pts-a.pts;
+        const da=a.gf-a.gc,db=b.gf-b.gc;
+        if(db!==da) return db-da;
+        return b.gf-a.gf;
+      });
+      const last30Anual = tablaAnualSorted[29]?.nombre;
+      const doubleDesc = last30 === last30Anual;
+      const isDesc = pos===30;
       const bc=isDesc?'pos-badge-red':'pos-badge-neutral';
       const rs=isDesc?'border-left:3px solid #E74C3C;':'';
       const pc=isDesc?'#E74C3C':'var(--texto)';
